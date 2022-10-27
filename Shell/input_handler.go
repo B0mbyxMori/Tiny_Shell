@@ -6,6 +6,7 @@ type input struct {
 	command string
 }
 
+// NOTE: Move to output_handler eventually.
 func (input *input) ReturnCommand() string {
 	return input.command
 }

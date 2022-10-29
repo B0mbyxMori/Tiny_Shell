@@ -1,3 +1,6 @@
+// Responsibilities: Handles all input from user.
+// Depends on user_interface. Relays to os_interface.
+
 package main
 
 import "fmt"
@@ -11,8 +14,8 @@ func (input *input) ReturnCommand() string {
 	return input.command
 }
 
-func main() {
-	test := input{command: "Boo!"}
+// NOTE: Will I need this?
+// func (input *input) ParseCommand() []string {
 
-	fmt.Println(test.ReturnCommand())
-}
+// }
+

@@ -1,8 +1,10 @@
+// Responsibilities: Contains all input_handler tests.
+
 package main
 
 import "testing"
 
-func Test_ReturnCommand(t *testing.T) {
+func TestReturnCommand(t *testing.T) {
 	testInput := &input{command: "Hey."}
 
 	if testInput.command != "Hey." {
